@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ PostListComponent, UserListComponent],
+  imports: [ PostListComponent, UserListComponent],   // need to import CommonModule to use ngFor,ngIf, ngSwitch
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
